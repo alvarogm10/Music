@@ -125,6 +125,93 @@ RCA:
 ## Signals and Additional Information
 
 
+# Week 2
+
+Pre production: Composing and getting ideas, planning the performance
+Production: Recording of the performance
+Post pruduction: DAW, editing, mixing and mastering
+
+## DAW
+
+### Analog to digital conversion
+
+* Binary -> bit "0" and "1"
+* CD Standard 16-bit
+* Studio 24-bit
+* More bits -> more dynamic range
+* Good for recording because at lowlevel is going to be a good recording
+* Reccomended at 24 bit
+
+* Sampling rate: Higher rate -> higher the frequency that one could record.
+* Nyquist -> Half of the sample rate
+* Audio CD 16-bit. 44100 samples/sec
+* Videos -> 48000 
+* Suggestion using 48000. in order to work with another people
+
+### Buffer size
+
+* How large the chunk of audio measurement is stored previously in the computer, number of audio samples waiting to get to the D/A converter in order for player to hear themselves while recording.
+
+* Lowering buffer size -> reduces latency -> but also reduces the number of plugins that can be used.
+* Raising buffer size, increase latency and increase the number of plugins that can use.
+
+* While recording use a low buffer size, try 128 samples.
+* During post production, raise buffer size to 1024, when necessary.
+* Freezing a track 
+* Plugins affect CPU 
+
+* Delay = Buffer size / Sample rate
+* < 20 ms , delay
+
+### File types
+
+Data compression -> loss less
+Audio compression -> 
+
+* Using highest possible quality when recording
+* WAV. AIFF file. Better quality as uncompressed
+* Broadcast wave files -> stores more metadata if crashes - BWF
+
+* Interleaved files: Contains both left and right audio channels in a single file.
+
+### Project folder
+
+* Folder 
+
+### Project checklist
+
+* Proper Project name and Location
+* Digital Audio Preferences
+* Recording File Type
+* Hardware settings
+
+## Tracks, files and editing
+
+Audio tracks:
+MIDI tracks:
+Auxiliary tracks:
+Instrument track: listen to midi -> output something
+Global track: Tempo, meter, markers
+
+## Recording audio
+
+* Create track: mono or stereo. Mono is most of the times
+* Name track immediately after creating a track.
+* Levels
+* Click track
+* Count off
+
+- Check your settings
+- Create a track (remember mono or stereo)
+- Name the track
+- Record enable the track
+- Set levels using the microphone preamp
+- Enable the click and countoff
+- Record
+
+## Zooming
+
+
 
 
 
