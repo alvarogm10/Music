@@ -40,7 +40,7 @@ title: The Technology of music production
 * Spectrum analyzer: Horizontal frequency and vertical amplitude
 * Spectogram/Sonogram: Represents the changes in time
 
-##3 Look for
+### Look for
 
 Timbre,partials
 Masking,Fletcher munson curves,psycho acoustics, phantom fundamental.
@@ -124,6 +124,87 @@ RCA:
 
 ## Signals and Additional Information
 
+### Interfaces
+
+* Microphone pre-amp
+* PAD: Attenuation
+
+### Microphone connection and Gain
+
+* Be careful
+* Avoid the feedback
+
+1. Reduce the input gain all the way down
+2. Turn phantom-power off before connecting into the interface
+3. Connect female end first into the mic, and then male into the interface 
+4. Turn phantom-power on
+5. Set the level for the recording
+	* Nice level signal
+	* Do not get distortion
+	* Find the highest volume of the recording
+	* Be on the "yellow" range (3/4) never on the top
+	* Find the monitor 
+	* Set a little bit lower, because in performance could get higher levels
+6. Turn off monitors before disconnecting something
+7. Turn mic gain all way down
+8. Turn off phantom power 
+9. Turn off
+
+### Analog to Digital converter
+
+* Computer understand binary
+* Instrument signals are analog
+* Quantization and Sampling
+	-Taking a very small piece of audio
+
+### Pick up connections
+
+* For guitars and basses
+
+#### Option 1
+
+Guitar -> 1/4 Ts" cable -> Audio interface
+
+- Not as the same as line level
+
+It is necessary a special designed input, called as:
+	* Instrument input
+	* Direct input
+	* High Z input
+	* High impedance input
+
+Issues: It gets some delay (latency)
+
+#### Option 2
+
+Guitar -> 1/4 Ts cable -> Guitar or bass amp - > Mic -> XLR Cable -> Audio interface in MIC input
+
+- Great option, takes the sound of the amp
+- Get some sound of the room, sometimes hard
+
+#### Option 3
+
+Guitar -> 1/4 TS" cable -> Amp -> Line out -> 1/4 Ts cable -> Line in
+
+* Not connect speaker outputs into an interface
+
+#### Option 4
+
+Guitar -> 1/4" TS Cable -> Direct Box -> Amp
+				      -> XLR cable -> Audio Interface 	
+
+Direct box: Get the correct impedance
+
+Helps from the noise
+
+#### Option 5
+
+Add to Option 4 a second signal of the amp into the interface
+
+### DAW
+
+* Get a speakers for studio situations
+* Powered speakers
 
 # Week 2
 
@@ -193,7 +274,7 @@ Auxiliary tracks:
 Instrument track: listen to midi -> output something
 Global track: Tempo, meter, markers
 
-## Recording audio
+### Recording audio
 
 * Create track: mono or stereo. Mono is most of the times
 * Name track immediately after creating a track.
@@ -209,8 +290,127 @@ Global track: Tempo, meter, markers
 - Enable the click and countoff
 - Record
 
-## Zooming
+### Zooming
 
+### Trimming
+
+* Best to rehearse more and then record -> Save a lot of time on editing.
+* Clip audio
+* Audio file and a region or a clip.
+*Changing regions -> non-destructive
+
+### Separating and cutting
+
+Split and cut a region
+
+### Nudging
+
+* Moving a region back and forth
+
+### Grid
+
+* Snap
+* Resolution of the grid
+
+### Fades
+
+* When cutting is generating Hi-Frequency pop
+* Cut when point is zero is better -> Check DAW
+* Fades helps to avoid the pops
+
+* Crossfades when overlapping 
+* First region comes down when second goes up 
+
+### Cycling
+
+* Setting the loops
+
+### Merging
+
+* Type to destructive editing, as is writing a new audio file.
+* Known as merging or consolidating.
+*If the track is ready, is good to do it.
+
+### Naming and coloring
+
+* Handy to name and colouring the regions
+
+### Markers
+
+Markers are for specific location of the songs.
+*Generally in global tracks.
+
+### Comping
+
+* Creating a perfect performance form a series of imperfect takes.
+* Also applies crossfades
+* A shorter crossfade is always better
+* Use merge at the end
+
+
+### Destructive editing
+
+* Normalizing: 
+* Reverse:
+
+Careful because could change the sounds of another poroject, if the file is linked.
+
+### Notes
+
+Non-destructive editing: The clip or region is changed but the referenced audio files is unchanged
+
+## MIDI
+
+- Score of a the computer
+- Musicial Instrument Digital Interface
+- Midi channels, 1 to .16
+- Common midi messages 
+	* Note on/off
+	* Control change
+	* Pitch bend
+- Velocity: How "hard" the key is hit
+
+- Two data words of a note-on message indicate: Velocity and note number. 7 bit numbers each.
+- "Panic", send all notes off
+- "Sustain", is conreol channel 64
+- "Channel pressure", after touch.
+- Sampler: Plays back pre-recorded audio.
+- Sinthetizer: Creates sound from geometric waveform or formula.
+
+### MIDI Controllers
+
+- Some of them use drivers
+- 5 pin MIDI Midi cable
+- Cable USB - Bidireccional capability
+- Pitch
+- Modulation - Control change 1
+- Change functionality from 1 to 127
+- 
+
+### Software Instruments
+
+- Plugin / insert
+- Virtual instrument
+
+### MIDI Editing: Velocity
+
+- Adjusting relative volume
+- Most synths will change volume with velocity
+
+### MIDI Quantization
+
+- Natural performance is sometimes "sloppy"
+- Quantization, repairs it depending on the groove.
+- Set grid, usually 16. Best to check out how is the shorter note.
+-Reccomend, go to the MIDI track, repair notes, and then quantization.
+-Quantization strenght:  by default 100% goes to the grid perfectly. 
+- Reccomended using 20% QS, then do it repeatedly until is a tight sound and not too "robotic". 
+
+### Common MIDI recording and editing functions:
+
+Overdub
+
+### Wrap-up
 
 
 
